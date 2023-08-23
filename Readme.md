@@ -1,8 +1,7 @@
 # Cricket Live Score for macOS
 
-
+App in action!
 https://github.com/gijocode/CricketLiveScoreforMacOS/assets/75658977/8d19f446-d2aa-4aba-850d-834bf59442c1
-
 
 Hey there, cricket enthusiast! 🏏 Are you tired of missing out on the latest cricket match updates while working on your macOS? Look no further! The Cricket Live Score app for macOS is here to keep you in the loop with real-time match commentary and notifications.
 
@@ -53,11 +52,6 @@ Hey there, cricket enthusiast! 🏏 Are you tired of missing out on the latest c
 2. Sit back, relax, and let the app keep you updated with live cricket commentary.
 
 3. Customize notification preferences in the app as per your liking.
-
-## Screenshots
-
-![App Screenshot 1](screenshots/screenshot1.png)
-_App in action during a thrilling cricket match._
 
 ## Contributing
 
