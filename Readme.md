@@ -83,10 +83,4 @@ Found a bug? Have an idea for an enhancement? We'd love your contributions!
 
 5. Open a pull request! We'll review your changes and merge them if they look good.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 Happy cricketing! Feel free to reach out if you have any questions or suggestions. Let's enjoy the game together! 🎉
