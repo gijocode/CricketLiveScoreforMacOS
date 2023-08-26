@@ -97,7 +97,7 @@ def main():
                         current_match_status,
                     )
                 send_notification(heading, text, current_score)
-                if "won by" in current_match_status:
+                if any(end_case in current_match_status for end_case in ["won by", "draw"]):
                     break
                 time.sleep(3)
 
