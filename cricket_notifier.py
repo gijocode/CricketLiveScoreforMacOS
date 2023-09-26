@@ -1,6 +1,5 @@
 import subprocess
 import time
-from typing import Dict
 
 import requests
 from bs4 import BeautifulSoup
@@ -12,7 +11,7 @@ NOTIFICATION_CMD = """
     """
 
 
-SCORE_DESCRIPTIONS: Dict[str, str] = {
+SCORE_DESCRIPTIONS= {
     "score-w": " Wicket!",
     "score-0": " plays a Dot ball",
     "score-1": " settles for 1 Run",
@@ -97,7 +96,9 @@ def main():
                         current_match_status,
                     )
                 send_notification(heading, text, current_score)
-                if any(end_case in current_match_status for end_case in ["won by", "draw"]):
+                if any(
+                    end_case in current_match_status for end_case in ["won by", "draw"]
+                ):
                     break
                 time.sleep(3)
 
