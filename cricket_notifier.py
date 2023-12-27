@@ -11,7 +11,7 @@ NOTIFICATION_CMD = """
     """
 
 
-SCORE_DESCRIPTIONS= {
+SCORE_DESCRIPTIONS = {
     "score-w": " Wicket!",
     "score-0": " plays a Dot ball",
     "score-1": " settles for 1 Run",
@@ -81,6 +81,8 @@ def main():
             team_b_score = soup.find(class_="teambScore").text
             if not team_b_score:
                 current_score = f"{team_a_name}: {team_a_score}"
+            elif not team_a_score:
+                current_score = f"{team_b_name}: {team_b_score}"
             else:
                 current_score = (
                     f"{team_a_name}: {team_a_score} | {team_b_name}: {team_b_score}"
